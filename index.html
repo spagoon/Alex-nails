@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alex Nails</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      background-image: url('https://images.unsplash.com/photo-1589987607627-5d6fe1e6c88d?auto=format&fit=crop&w=1350&q=80');
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      font-family: 'Quicksand', sans-serif;
+    }
+    .about h2 {
+      font-family: 'Pacifico', cursive;
+      color: #e91e63;
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .about p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      background: rgba(255, 255, 255, 0.85);
+      padding: 1rem;
+      border-radius: 10px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    header .logo {
+      width: 120px;
+      margin-bottom: 1rem;
+    }
+    .form-group {
+      margin-bottom: 1rem;
+    }
+    .form-group input, .form-group textarea {
+      width: 100%;
+      padding: 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-family: 'Quicksand', sans-serif;
+    }
+    .form-group textarea {
+      resize: vertical;
+    }
+    .contact form {
+      max-width: 500px;
+      margin: 1rem auto;
+      background: rgba(255, 255, 255, 0.95);
+      padding: 1.5rem;
+      border-radius: 10px;
+    }
+    .contact form button {
+      background: #e91e63;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="overlay">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/480px-No_image_available.svg.png" alt="Alex Nails Logo" class="logo">
+      <h1>Welcome to Alex Nails</h1>
+      <p>Luxury Nail Care & Artistry</p>
+      <a href="#contact" class="btn">Book Appointment</a>
+    </div>
+  </header>
+
+  <section class="about">
+    <h2>About Us</h2>
+    <p>At Alex Nails, we provide premium nail care services, specializing in creative nail art and luxurious treatments. Whether you're looking for a classic manicure or a bold new design, we’ve got you covered. Our team is passionate about helping you feel beautiful and confident — one nail at a time!</p>
+  </section>
+
+  <section class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>💅 Manicures & Pedicures</li>
+      <li>🎨 Custom Nail Art</li>
+      <li>💎 Acrylic & Gel Extensions</li>
+      <li>🧖 Spa Treatments</li>
+    </ul>
+  </section>
+
+  <section class="gallery">
+    <h2>Gallery</h2>
+    <div class="images">
+      <img src="https://source.unsplash.com/400x400/?nails,art,1" alt="Nail design 1">
+      <img src="https://source.unsplash.com/400x400/?nails,design,2" alt="Nail design 2">
+      <img src="https://source.unsplash.com/400x400/?nail,polish,3" alt="Nail design 3">
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Verginias 3</p>
+    <p>📞 22350015</p>
+    <p>📧 hello@alexnails.com</p>
+    <div class="map" style="margin-top: 1rem;">
+      <iframe
+        src="https://www.google.com/maps?q=Verginias+3,+Cyprus&output=embed"
+        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <form>
+      <h3>Book Your Appointment</h3>
+      <div class="form-group">
+        <input type="text" placeholder="Your Name" required>
+      </div>
+      <div class="form-group">
+        <input type="email" placeholder="Your Email" required>
+      </div>
+      <div class="form-group">
+        <input type="text" placeholder="Preferred Date & Time" required>
+      </div>
+      <div class="form-group">
+        <textarea placeholder="Additional Notes" rows="4"></textarea>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Made by Spaggu and Alex</p>
+  </footer>
+</body>
+</html>
